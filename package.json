@@ -45,6 +45,9 @@
     }
   },
   "lint-staged": {
-    "./src/**/*.ts": ["eslint --cache --fix", "prettier --write"]
+    "./src/**/*.ts": [
+      "eslint --cache --fix",
+      "prettier --write"
+    ]
   }
 }
